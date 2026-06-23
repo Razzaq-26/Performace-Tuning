@@ -9,15 +9,15 @@
     
       select * from sys.indexes
 
-             or
+            -- or
     
       select * from sys.tables
 
-            or DVMs
+            --or DVMs
 
       select * from sys.dm_db_index_usage_stats
 
-            combined
+           -- combined
 
     select 
     tbl.name as TableName,
@@ -47,7 +47,7 @@
 
     select * from sys.dm_db_missing_index_groups
      
-     select 
+      
 
  --3. monitor duplicate indexes or how a cloumn shares the multiple index
     
