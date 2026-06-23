@@ -6,7 +6,7 @@
    
    dbcc show_statistics('dbo.tablename', 'indexname')
    
-   properties of  statistic 1. header 2. density vectore
+   --properties of  statistic 1. header 2. density vectore 3.hologram
       
     /* check statistic update or not rows_sampled and rows are showing 
     big diffferent and check which scan is using full or sample */
